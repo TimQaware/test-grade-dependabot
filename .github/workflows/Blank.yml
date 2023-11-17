@@ -26,15 +26,7 @@ jobs:
         with:
           gradle-build-module: |-
             :
-          gradle-build-configuration: |-
-            compileClasspath
-      - name: Root Gradle Dependency Submission
-        uses: mikepenz/gradle-dependency-submission@v0.9.1
-        with:
-          gradle-project-path: |-
-            subProject
-          gradle-build-module: |-
-            :
+            :subProject
           gradle-build-configuration: |-
             compileClasspath
 
