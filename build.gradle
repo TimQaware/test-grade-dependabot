@@ -8,7 +8,7 @@ repositories {
 
 dependencies {
     implementation 'org.apache.commons:commons-lang3:3.4'
-    implementation 'org.springframework:spring-core:5.2.0.RELEASE
+    implementation 'org.springframework:spring-core:5.2.0.RELEASE'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.2' // Vulnerable version
     testImplementation 'junit:junit:4.12'
 }
