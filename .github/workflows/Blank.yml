@@ -24,9 +24,16 @@ jobs:
       - name: Root Gradle Dependency Submission
         uses: mikepenz/gradle-dependency-submission@v0.9.1
         with:
-          use-gradlew: false
+          gradle-project-path: |-
+            subProject
           gradle-build-module: |-
             :
-            :subProject
+          gradle-build-configuration: |-
+            compileClasspath
+      - name: Root Gradle Dependency Submission 2
+        uses: mikepenz/gradle-dependency-submission@v0.9.1
+        with:
+          gradle-build-module: |-
+            :
           gradle-build-configuration: |-
             compileClasspath
