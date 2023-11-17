@@ -27,6 +27,6 @@ jobs:
           use-gradlew: false
           gradle-build-module: |-
             :
-            :simple-app
+            :subProject
           gradle-build-configuration: |-
             compileClasspath
