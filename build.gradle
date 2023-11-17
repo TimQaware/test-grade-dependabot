@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.2' // Vulnerable version
+    testImplementation 'junit:junit:4.12'
+}
+
+test {
+    useJUnit()
+}
