@@ -21,6 +21,11 @@ jobs:
     steps:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
-
-      - name: Run snapshot action
+      - name: Root Gradle Dependency Submission
         uses: mikepenz/gradle-dependency-submission@v0.9.1
+        with:
+          use-gradlew: false
+          gradle-build-module: |-
+            :
+          gradle-build-configuration: |-
+            compileClasspath
