@@ -7,6 +7,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.google.guava:guava:28.0' // Not the latest version, but no known vulnerabilities
     implementation 'org.apache.commons:commons-collections4:4.0' // Vulnerable version
     testImplementation 'junit:junit:4.12'
 }
