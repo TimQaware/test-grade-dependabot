@@ -4,6 +4,6 @@
 dependencies {
     // Quarkus Framework
     implementation 'org.apache.httpcomponents:httpclient:4.5.13' // Known vulnerable versio
-    implementation 'org.bouncycastle:bcprov-jdk15on:1.59' // Known vulnerable version
+
 
 }
