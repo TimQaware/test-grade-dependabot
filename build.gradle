@@ -10,7 +10,7 @@ repositories {
 dependencies {
     implementation 'org.apache.struts:struts2-core:2.3.35'
     implementation 'org.apache.commons:commons-lang3:3.4'
-    implementation 'org.springframework:spring-core:5.2.0.RELEASE'
+    implementation 'org.springframework:spring-core:5.2.24.RELEASE'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.2' // Vulnerable version
     testImplementation 'junit:junit:4.12'
     implementation 'io.quarkus:quarkus-vertx-http:3.2.6.Final'
