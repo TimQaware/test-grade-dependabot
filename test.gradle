@@ -3,7 +3,7 @@
  
 dependencies {
     // Quarkus Framework
-    implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13' // Known vulnerable version
     implementation 'io.quarkus:quarkus-arc'
     implementation 'io.quarkus:quarkus-container-image-jib'
     implementation 'io.quarkus:quarkus-flyway'
