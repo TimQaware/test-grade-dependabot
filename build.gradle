@@ -8,7 +8,7 @@ repositories {
 }
 
 
-apply from: "build.gradle"
+apply from: "test/build.gradle"
 
 test {
     useJUnit()
